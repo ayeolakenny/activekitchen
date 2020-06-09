@@ -131,24 +131,24 @@
 		<div class="container py-xl-5 py-3">
 			<div class="login-body">
 				<div class="login p-4 mx-auto">
-					<!-- <h5 class="text-center mb-4">Order Summary</h5>
-          <br>
-          <h4 for="name">Food Item: <span class="checkoutOrder"></span></h4>
-          <br>
-          <h4 for="name">Name: <span class="checkoutName"></span></h4>
-          <br>
-          <h4 for="name">Email: <span class="checkoutEmail"></span></h4>
-          <br>
-          <h4 for="name">Mobile: <span class="checkoutMobile"></span></h4>
-          <br>
-          <h4 for="name">Price: <span class="checkoutPrice"></span></h4>
+					<h5 class="text-center mb-4">Order Summary</h5>
 					<form action="" name="ORDERS" data-netlify="true" netlify-honeypot="bot-field" method="POST">
-              <input type="text" name="Order" class="checkoutOrder2">
-              <input type="text" name="Name" class="checkoutName2">
-              <input type="text" name="Email" class="checkoutEmail2">
-              <input type="text" name="Price" class="checkoutPrice2">
-              <input type="text" name="number" class="checkoutMobile2">
-              <input hidden name="bot-field" />
+            <h4>
+              <label>Food Item: <input type="text" name="Order" class="checkoutOrder2 checkout-input" readonly></label>
+            </h4>
+            <h4>
+              <label>Name: <input type="text" name="Name" class="checkoutName2 checkout-input" readonly></label>
+            </h4>
+            <h4>
+              <label>Email: <input type="text" name="Email" class="checkoutEmail2 checkout-input" readonly></label>
+            </h4>
+            <h4>
+              <label>Price: <input type="text" name="Price" class="checkoutPrice2 checkout-input" readonly></label>
+            </h4>
+            <h4>
+              <label>Mobile: <input type="text" name="number" class="checkoutMobile2 checkout-input" readonly></label>
+            </h4>
+            <input hidden name="bot-field" />
             <div class="form-group">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -168,21 +168,7 @@
               </div>
               <div class="col"></div>
             </div>
-          </form> -->
-
-          <form name="contact" method="POST" data-netlify-recaptcha="true" netlify>
-            <p>
-              <label>Email: <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <div data-netlify-recaptcha="true"></div>
-            <p>
-              <button type="submit">Send</button>
-            </p>
           </form>
-
 				</div>
 			</div>
       </div>

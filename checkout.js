@@ -1,9 +1,3 @@
-let checkoutOrder = document.querySelector('.checkoutOrder').innerText = sessionStorage.getItem('orderToPass');
-let checkoutName = document.querySelector('.checkoutName').innerText = localStorage.getItem('formName');
-let checkoutPrice = document.querySelector('.checkoutPrice').innerText = sessionStorage.getItem('priceToPass');
-let checkoutMobile = document.querySelector('.checkoutMobile').innerText = localStorage.getItem('formNumber');
-let checkoutEmail = document.querySelector('.checkoutEmail').innerText = localStorage.getItem('formEmail');
-
 let checkoutOrder2 = document.querySelector('.checkoutOrder2').value = sessionStorage.getItem('orderToPass');
 let checkoutName2 = document.querySelector('.checkoutName2').value = localStorage.getItem('formName');
 let checkoutPrice2 = document.querySelector('.checkoutPrice2').value = sessionStorage.getItem('priceToPass');

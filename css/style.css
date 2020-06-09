@@ -108,6 +108,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.checkout-input{
+  border: hidden;
+}
+
+.checkout-input:focus{
+  outline: none;
+}
+
 /* //Reset Code */
 
 /* bottom-to-top */
