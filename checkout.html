@@ -131,7 +131,7 @@
 		<div class="container py-xl-5 py-3">
 			<div class="login-body">
 				<div class="login p-4 mx-auto">
-					<h5 class="text-center mb-4">Order Summary</h5>
+					<!-- <h5 class="text-center mb-4">Order Summary</h5>
           <br>
           <h4 for="name">Food Item: <span class="checkoutOrder"></span></h4>
           <br>
@@ -168,7 +168,23 @@
               </div>
               <div class="col"></div>
             </div>
+          </form> -->
+
+          <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <p>
+              <label>Email: <input type="text" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
+
 				</div>
 			</div>
       </div>
