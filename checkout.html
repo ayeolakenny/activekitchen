@@ -142,7 +142,8 @@
           <h4 for="name">Mobile: <span class="checkoutMobile"></span></h4>
           <br>
           <h4 for="name">Price: <span class="checkoutPrice"></span></h4>
-					<form action="" name="ORDERS" data-netlify="true" method="POST">
+					<form action="" name="ORDERS" data-netlify="true" method="POST" netlify-honeypot="bot-field">
+            <input type="text" hidden name="bot-field">
             <input type="text" hidden name="Order" class="checkoutOrder2">
             <input type="text" hidden name="Name" class="checkoutName2">
             <input type="text" hidden name="Email" class="checkoutEmail2">
